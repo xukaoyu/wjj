@@ -1,9 +1,12 @@
-
+spring:
+  profiles:
+  active: dev
+---
 server:
-  port: 8003
+  port: 8001
 spring:
   application:
-    name: USER-PROVIDER  #服务的名字
+    name: PLAT-SERVICE  #服务的名字
     profile: dev #开发环境
 eureka:
   client:
@@ -14,7 +17,7 @@ server:
   port: 8004
 spring:
   application:
-    name: USER-PROVIDER  #服务的名字
+    name:  PLAT-SERVICE-TEST  #服务的名字
     profile: test #开发环境
 eureka:
   client:
