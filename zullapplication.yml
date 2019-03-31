@@ -15,6 +15,12 @@ eureka:
   instance:
     instance-id: gateway-9527.com
     prefer-ip-address: true
+zuul:
+  prefix: "/aigo"
+  ignored-services: "*"
+  routes:
+    plat.serviceId: plat-service
+    plat.path: /plat/**
 ---
 server:
   port: 9528
