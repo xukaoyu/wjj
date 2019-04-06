@@ -19,7 +19,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka/
 feign:
   hystrix:
-    enabled:true #断路器
+    enabled: true #断路器
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/aigo/mapper/*Mapper.xml
   type-aliases-package: cn.itsource.aigo.domain,cn.itsource.aigo.query
@@ -41,7 +41,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka/
 feign:
   hystrix:
-    enabled:true #断路器
+    enabled: true #断路器
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/aigo/mapper/*Mapper.xml
   type-aliases-package: cn.itsource.aigo.domain,cn.itsource.aigo.query
