@@ -23,7 +23,8 @@ zuul:
     plat.path: /plat/**
     product.serviceId: product-service
     product.path: /product/**
-  
+    common.serviceId: common-provider
+    common.path: /common/**
 ---
 server:
   port: 9528
